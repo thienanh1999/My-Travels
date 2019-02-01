@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Travels</string>
+    <string name="action_sort">Sort</string>
+    <string name="action_sort_default">Mặc định</string>
+    <string name="action_sort_travel_asc">Tiêu đề (Tăng)</string>
+    <string name="action_sort_travel_desc">Tiêu đề (Giảm)</string>
+    <string name="action_sort_start_asc">Ngày khởi hành (Tăng)</string>
+    <string name="action_sort_start_desc">Ngày khởi hành(Giảm)</string>
+    <string name="title_activity_new_travel">Thêm chuyến đi mới</string>
+    <string name="title_activity_edit_travel">Chỉnh sửa chuyến đi</string>
+    <string name="travel_et_hint_enter_title">Nhập tiêu đề chuyến đi</string>
+    <string name="travel_title_empty">Vui lòng nhập tiêu đề!</string>
+    <string name="travel_et_hint_start_dt">Ngày khởi hành</string>
+    <string name="travel_et_hint_end_dt">Ngày kết thúc</string>
+    <string name="travel_et_hint_place">Chọn thành phố</string>
+    <string name="travel_city_empty">Vui lòng nhập thành phố!</string>
+    <string name="travel_startdt_empty">Vui lòng nhập ngày khởi hành!</string>
+    <string name="travel_enddt_empty">Vui lòng nhập ngày kết thúc!</string>
+    <string name="title_activity_maps">Bản đồ</string>
+    <string name="action_delete">Xóa</string>
+    <string name="travel_del_title">Xác nhận xóa chuyến đi?</string>
+    <string name="travel_del_msg">Mọi thông tin về chuyến du lịch sẽ bị xóa</string>
+    <string name="title_activity_travel_detail">Travel Detail</string>
+    <string name="title_frag_daily_plans">Lịch trình</string>
+    <string name="title_frag_dairy">Nhật ký</string>
+    <string name="title_frag_expenses">Chi tiêu</string>
+    <string name="title_activity_plan_detail">Lịch trình chi tiết</string>
+    <string name="title_activity_diary_detail">Nhật ký chi tiết</string>
+    <string name="title_activity_expenses_detail">Chi phí chi tiết</string>
+    <string name="plan_edit_warn">Nhập tiêu đề hoặc chọn điểm đến</string>
+    <string name="diary_edit_warn">Nhập văn bản hoặc chọn hình ảnh</string>
+    <string name="expense_edit_warn">Nhập tiêu đề và số liệu</string>
+    <string name="expense_edit_exchange_warn">Nhập số liệu quy đổi</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="input_date_hint">Ngày</string>
+    <string name="input_time_hint">Giờ</string>
+    <string name="input_place_hint">Điểm đến</string>
+    <string name="input_plan_title_hint">Tiêu đề</string>
+    <string name="input_plan_desc_hint">Mô tả</string>
+    <string name="plan_for">Kế hoạch cho</string>
+    <string name="diary_for">Nhật ký cho</string>
+    <string name="diary_desc_hint">Văn bản</string>
+    <string name="expenses_for">Chi phí cho</string>
+    <string name="expense_amount">Số lượng</string>
+    <string name="expense_exch_curr_warn">Chọn loại tiền tệ khác</string>
+    <string name="permission_dialog_title">Cần được cấp quyền</string>
+    <string name="permission_camera_gallery">Cần cấp quyền truy cập External Storage</string>
+    <string name="permission_camera_msg">Cần cấp quyền truy cập Camera và External Storage</string>
+    <string name="permission_not_granted">Không được cấp quyền</string>
+    <string name="delete_warn_msg">Bạn có muốn hủy việc xóa không?</string>
+    <string name="undo">UNDO</string>
+    <string name="long_click_snackbar">Nhấn giữ để thay đổi</string>
+    <string name="dont_show_again">KHÔNG HIỆN LẠI</string>
+    <string name="travel_longclick">Nhẫn giữ để thay đổi</string>
+    <string name="no_google_map">Không có Google Maps APPS</string>
+    <string name="destination">Điểm đến</string>
+    <string name="where_do_you_want_to_go">Nhập điểm đến</string>
+    <string name="review">Gợi ý</string>
+    <string name="add_to_your_trips">Thêm vào chuyến đi</string>
+    <string name="create_trip">Tạo chuyến đi</string>
+    <string name="action_show_chart">Xem biểu đồ thống kê</string>
+    <string name="edit">Chỉnh sửa</string>
+    <string name="delete">Xóa</string>
+    <string name="hotels">Khách Sạn</string>
+    <string name="restaurant">Nhà hàng</string>
+    <string name="attractions">Điểm thu hút</string>
+    <string name="drawer_up_coming_travels">Những chuyến du lịch sắp tới</string>
+    <string name="drawer_settings">Cài đặt</string>
+    <string name="drawer_about">Thông tin về ứng dụng</string>
+    <string name="drawer_rating_us">Đánh giá</string>
+    <string name="drawer_send_feedback">Gửi phản hồi</string>
+    <string name="drawer_other">Khác</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="settings_notifications">Thông báo</string>
+    <string name="settings_up_coming_travels">Du lịch sắp tới</string>
+    <string name="settings_activity_title">Cài đặt</string>
+    <string name="up_coming_travels_title">Những chuyến du lịch sắp tới</string>
+    <string name="drawer_features">Tính năng</string>
+    <string name="do_not_get_notifications_for_the_next_travels">Không nhận thông báo cho chuyến đi tiếp theo</string>
+    <string name="get_notifications_for_the_next_travels">Nhận thông báo cho chuyến đi tiếp theo</string>
+    <string name="one_week">Một tuần</string>
+    <string name="one_day">Một ngày</string>
+    <string name="one_month">Một tháng</string>
+    <string name="loading_location">Đang tải ...</string>
+    <string name="your_full_name">Họ và Tên</string>
+    <string name="login">Đăng nhập</string>
+    <string name="login_via_facebook">Đăng nhập bằng Facebook</string>
+
+    <string-array name="up_coming_day_array">
+        <item>Một ngày</item>
+        <item>Một tuần</item>
+        <item>Một tháng</item>
+    </string-array>
+
+    <string-array name="notification_frequency_array">
+        <item>Một phút</item>
+        <item>Một ngày</item>
+    </string-array>
+
+    <string name="facebook_app_id">612716852490300</string>
+    <string name="fb_login_protocol_scheme">fb612716852490300</string>
+    <string name="skip">Skip</string>
+    <string name="start_using_my_travels">                        </string>
+    <string name="language">Ngôn Ngữ</string>
+    <string name="choose_language">Chọn ngôn ngữ</string>
+    <string name="english_default">English (Default)</string>
+    <string name="get_notifications_every">Nhập thông báo mỗi</string>
+    <string name="one_minute">Một phút</string>
+    <string name="tieng_viet">Tiếng Việt</string>
+    <string name="korean">Korean</string>
+</resources>

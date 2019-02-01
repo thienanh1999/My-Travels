@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quanghung.SettingsActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            app:title="@string/settings_activity_title"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:id="@+id/notifications_settings_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout">
+
+        <TextView
+            android:layout_margin="@dimen/settings_margin"
+            android:id="@+id/tvNotifications"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_notifications"
+            android:textSize="@dimen/settings_text_size"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvNotificationSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/do_not_get_notifications_for_the_next_travels"
+            android:layout_below="@+id/tvNotifications"
+            android:textSize="@dimen/settings_text_size_subtitle"
+            android:layout_marginBottom="@dimen/settings_margin"
+            android:layout_marginStart="@dimen/settings_margin"/>
+
+        <Switch
+            android:id="@+id/notification_settings_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp" />
+
+
+    </RelativeLayout>
+
+    <View
+        app:layout_constraintTop_toBottomOf="@+id/notifications_settings_layout"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorBackground" />
+
+    <RelativeLayout
+        android:id="@+id/notifications_frequency_settings_layout"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/notifications_settings_layout">
+
+        <TextView
+            android:id="@+id/tvGetNotificationFrequency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/settings_margin"
+            android:textColor="@color/black"
+            android:text="@string/get_notifications_every"
+            android:textSize="@dimen/settings_text_size" />
+
+        <TextView
+            android:id="@+id/tvGetNotificationFrequencySubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/one_day"
+            android:textSize="@dimen/settings_text_size_subtitle"
+            android:textColor="@color/gray"
+            android:layout_marginStart="@dimen/settings_margin"
+            android:layout_marginBottom="@dimen/settings_margin"
+            android:layout_below="@+id/tvGetNotificationFrequency" />
+
+        <Spinner
+            android:id="@+id/notifications_frequency_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp" />
+
+    </RelativeLayout>
+
+    <View
+        app:layout_constraintTop_toBottomOf="@+id/notifications_frequency_settings_layout"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorBackground" />
+
+
+    <RelativeLayout
+        android:id="@+id/upcoming_travels_setting_layout"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/notifications_frequency_settings_layout">
+
+        <TextView
+            android:id="@+id/tv_upcoming_travels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/settings_margin"
+            android:textColor="@color/black"
+            android:text="@string/settings_up_coming_travels"
+            android:textSize="@dimen/settings_text_size" />
+
+        <TextView
+            android:id="@+id/tvUpcomingTravelsSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/one_day"
+            android:textSize="@dimen/settings_text_size_subtitle"
+            android:textColor="@color/gray"
+            android:layout_marginStart="@dimen/settings_margin"
+            android:layout_marginBottom="@dimen/settings_margin"
+            android:layout_below="@+id/tv_upcoming_travels"/>
+
+        <Spinner
+            android:id="@+id/up_coming_day_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"/>
+
+    </RelativeLayout>
+    <View
+        app:layout_constraintTop_toBottomOf="@+id/upcoming_travels_setting_layout"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorBackground" />
+
+    <RelativeLayout
+        android:id="@+id/language_setting_layout"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/upcoming_travels_setting_layout">
+
+        <TextView
+            android:id="@+id/tvLanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/settings_margin"
+            android:textColor="@color/black"
+            android:text="@string/language"
+            android:textSize="@dimen/settings_text_size" />
+
+        <TextView
+            android:id="@+id/tvLanguageSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/english_default"
+            android:textSize="@dimen/settings_text_size_subtitle"
+            android:textColor="@color/gray"
+            android:layout_marginStart="@dimen/settings_margin"
+            android:layout_marginBottom="@dimen/settings_margin"
+            android:layout_below="@+id/tvLanguage" />
+    </RelativeLayout>
+
+    <View
+        app:layout_constraintTop_toBottomOf="@+id/language_setting_layout"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorBackground" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

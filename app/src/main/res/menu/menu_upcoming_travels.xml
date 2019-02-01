@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.vtca.mytravels.quanghung.UpComingTravelsActivity">
+    <item
+        android:id="@+id/action_sort"
+        android:icon="@drawable/more_vert_white"
+        android:orderInCategory="100"
+        android:title="@string/action_sort"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <group
+                android:id="@+id/up_coming_day_group"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/one_day_display"
+                    android:title="@string/one_day" />
+                <item
+                    android:id="@+id/one_week_display"
+                    android:title="@string/one_week" />
+                <item
+                    android:id="@+id/one_month_display"
+                    android:title="@string/one_month" />
+            </group>
+        </menu>
+    </item>
+</menu>

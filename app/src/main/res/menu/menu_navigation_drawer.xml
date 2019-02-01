@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="@string/drawer_features">
+        <menu>
+            <item
+                android:id="@+id/drawer_up_coming"
+                android:icon="@drawable/ic_access_time_black_24dp"
+                android:title="@string/drawer_up_coming_travels" />
+            <item
+                android:id="@+id/drawer_settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="@string/drawer_settings" />
+        </menu>
+    </item>
+
+    <item android:title="@string/drawer_other">
+        <menu>
+            <item
+                android:id="@+id/drawer_about"
+                android:icon="@drawable/ic_drawer_about"
+                android:title="@string/drawer_about" />
+            <item
+                android:id="@+id/drawer_help_feedback"
+                android:icon="@drawable/ic_drawer_feedback"
+                android:title="@string/drawer_send_feedback" />
+            <item
+                android:id="@+id/drawer_rating_us"
+                android:icon="@drawable/ic_drawer_rating_us"
+                android:title="@string/drawer_rating_us" />
+
+        </menu>
+    </item>
+
+</menu>

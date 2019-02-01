@@ -1,0 +1,19 @@
+[
+  {
+    "outputType": {
+      "type": "APK"
+    },
+    "apkInfo": {
+      "type": "MAIN",
+      "splits": [],
+      "versionCode": 2,
+      "versionName": "1.1",
+      "enabled": true,
+      "outputFile": "MyTravel-release-1.1-20190114193212.apk",
+      "fullName": "release",
+      "baseName": "release"
+    },
+    "path": "MyTravel-release-1.1-20190114193212.apk",
+    "properties": {}
+  }
+]

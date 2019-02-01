@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.vtca.mytravels.MainActivity">
+    <item
+        android:id="@+id/action_sort"
+        android:icon="@android:drawable/ic_menu_sort_alphabetically"
+        android:orderInCategory="100"
+        android:title="@string/action_sort"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <group
+                android:id="@+id/action_sort_group"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/action_sort_default"
+                    android:title="@string/action_sort_default" />
+                <item
+                    android:id="@+id/action_sort_travel_asc"
+                    android:title="@string/action_sort_travel_asc" />
+                <item
+                    android:id="@+id/action_sort_travel_desc"
+                    android:title="@string/action_sort_travel_desc" />
+                <item
+                    android:id="@+id/action_sort_start_asc"
+                    android:title="@string/action_sort_start_asc" />
+                <item
+                    android:id="@+id/action_sort_start_desc"
+                    android:title="@string/action_sort_start_desc" />
+            </group>
+        </menu>
+    </item>
+</menu>
